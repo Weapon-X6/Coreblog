@@ -24,7 +24,7 @@ class Test_Create_Post(TestCase):
         status = f'{post.status}'
         self.assertEqual(author, 'test_user1')
         self.assertEqual(title, 'Titel')
-        self.assertEqual(content, 'Inhalt')
+        self.assertEqual(content, 'Inhalt') 
         self.assertEqual(status, 'published')
         self.assertEqual(str(post), 'Titel')
         self.assertEqual(str(cat), 'django')
